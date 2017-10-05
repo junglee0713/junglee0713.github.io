@@ -1,0 +1,27 @@
+---
+title: "Under Construction"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+## Do Some $\LaTeX$ stuff
+
+$$\int_a^b f(x)\,dx = F(b)-F(a),$$
+where $F'(x)=f(x)$.
+
+Eventually this will become something more interesting!
